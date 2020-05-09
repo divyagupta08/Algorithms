@@ -1,7 +1,10 @@
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-n = len(array)
-for i in range(0, int(n / 2)):
-    array[i], array[n - i - 1] = array[n - i - 1], array[i]
+def reverse(array):
+    n = len(array)
+    for i in range(0, int(n // 2)):
+        array[i], array[n - i - 1] = array[n - i - 1], array[i]
 
+reverse(array)
 print(array)
