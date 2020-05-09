@@ -8,3 +8,16 @@ def reverse(array):
 
 reverse(array)
 print(array)
+
+
+
+def reverse_1(array):
+    destination_arr = []
+    n = len(array)
+    for i in reversed(range (n)):
+        print(i)
+        destination_arr.append(array [i])
+    print(destination_arr)
+    pass
+
+reverse_1(array)
