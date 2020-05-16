@@ -1,3 +1,4 @@
+#Merge & Sort the Array
 def merge_sort(mylist):
     if len(mylist) > 1:
         mid = len(mylist) // 2
@@ -57,7 +58,7 @@ print("Merging", mylist)
 
 
 
-# #Merge two sorted arrays
+#Merge two sorted arrays
 def merge_arrays(arr1, arr2, n1, n2):
     arr3 = [None] * (n1 + n2)
     i = 0
