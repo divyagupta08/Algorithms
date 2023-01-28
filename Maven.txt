@@ -1,0 +1,5 @@
+mvn -version
+mvn archetype:generate -DgroupId=com.MSRIT.app -DartifactId=Divya -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd Divya
+mvn package
+java -cp target/Abhishek-1.0-SNAPSHOT.jar com.MSRIT.app.App
